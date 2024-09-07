@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaints of the Customer</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js"></script>
+    <script src="./index.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Complaints of the Customer</h1>
+            <ul>
+                <li><a href="../HOTEL FORM/index.html">Donate Food</a></li>
+                <li><a href="../complain/index.html">Complain</a></li>
+                <li><a href="../HOME/pr.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <h2>LIST OF COMPLAINTS</h2>
+        <div class="table-responsive">
+            <table id="complaintListTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Message</th>
+                        <th>Status</th>
+                        <th>Reply</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="complaintList">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Our mission is to facilitate the donation of food items to those in need, helping to reduce food waste and hunger.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Donate Food. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

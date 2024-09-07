@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Section</title>
+    <link rel="stylesheet" href="./style1.css">
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js"></script>
+    <script src="index.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <div class="food">
+            <h1>Welcome to Food Donation Web Site</h1>
+            <nav>
+                <ul>
+                    <li><a href="../HOTEL FORM/index.html">HOME</a></li>
+                    <li><a href="../complain/index.html">CONTACT US</a></li>
+                    <li><a href="../About me/index.html">ABOUT ME</a></li>
+                    <li><a href="../About Us/index.html">ABOUT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+     
+        <form id="registerForm">
+            <h3>Register</h3>
+            <input type="email" id="registerEmail" placeholder="Email" required><br><br>
+            <input type="password" id="registerPassword" placeholder="Password" required><br><br>
+            <button type="submit">Register</button>
+        </form>
+
+ 
+        <form id="loginForm" style="display: none;">
+            <h3>Login</h3>
+            <input type="email" id="loginEmail" placeholder="Email" required><br><br>
+            <input type="password" id="loginPassword" placeholder="Password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+    </main>
+    <footer>
+        <h1>About Us</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ab ad sed similique unde corporis.</p>
+    </footer>
+</body>
+</html>

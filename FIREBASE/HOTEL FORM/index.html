@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Donation Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>LADAKH FOOD DONATION WEBSITE</h1>
+            <ul>
+                <li><a href="../LIST/index.html">FoodList</a></li>
+                <li><a href="../complain/index.html">Complain</a></li>
+                <li><a href="../HOME/pr.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form id="donationForm">
+            <input type="text" name="hotel" id="hotel" placeholder="Enter the hotel name" required>
+            <input type="text" name="food" id="food" placeholder="Enter the food description" required>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+            <textarea name="address" id="address" placeholder="Enter your address" rows="6" cols="60" required></textarea>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+            <input type="datetime-local" id="datetime" name="datetime" required><br>
+            <button type="submit" class="btn">Submit</button>
+            <div class="alert" style="display: none;">Form submitted successfully!</div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Our mission is to facilitate the donation of food items to those in need, helping to reduce food waste and hunger.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Donate Food items. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

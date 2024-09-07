@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form to Email</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Firebase App (the core Firebase SDK) -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js"></script>
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js"></script>
+    <script src="index.js" type="module" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form id="contactForm">
+            <h3>WRITE YOUR COMPLAINT</h3>
+            <input type="text" id="Name" placeholder="Your Name" required>
+            <br>
+            <input type="email" id="email" placeholder="Email id" required>
+            <br>
+            <input type="tel" id="phone" placeholder="Phone No" required>
+            <br>
+            <textarea id="message" rows="4" cols="30" placeholder="How can we help you?" required></textarea>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+  
+</body>
+</html>
